@@ -1,0 +1,10 @@
+body{
+    background-size: cover;
+}
+.music, .rhythms, .karoke, .sounds{
+    margin-top: 80px;
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    color: black;
+}

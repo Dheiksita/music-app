@@ -1,0 +1,50 @@
+body{
+    background-size:cover;
+}
+.div_speed{
+    float: left;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.note{
+    font-size: 18px;
+    color: purple;
+}
+.speed_img,.volume_img{
+    width: 280px;
+    border-radius: 1000px;
+}
+.div_volume{
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+#musicName{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: video;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top: 40px;
+}
+@keyframes video{
+    from{box-shadow: 20px 20px 20px darkviolet;}
+    to{box-shadow: 20px 20px 20px rgb(255, 0, 102);}
+}
+.back{
+    float: left;
+    margin-top: 0px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
